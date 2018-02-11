@@ -19,6 +19,7 @@ class FiltersInterfaceService {
       album.title.toLowerCase().includes(this._phrase) ||
       album.artist.toLowerCase().includes(this._phrase) ||
       album.decade.toLowerCase().includes(this._phrase) ||
+      String(album.year) === this._phrase ||
       String(album.stars) === this._phrase
     ) {
       return true;

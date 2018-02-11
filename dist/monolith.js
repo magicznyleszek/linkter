@@ -125,7 +125,7 @@ var FiltersInterfaceService = function () {
     key: "matchAlbum",
     value: function matchAlbum(album) {
       // check album by title, artist, decade and stars
-      if (_.isEmpty(this._phrase) || album.title.toLowerCase().includes(this._phrase) || album.artist.toLowerCase().includes(this._phrase) || album.decade.toLowerCase().includes(this._phrase) || String(album.stars) === this._phrase) {
+      if (_.isEmpty(this._phrase) || album.title.toLowerCase().includes(this._phrase) || album.artist.toLowerCase().includes(this._phrase) || album.decade.toLowerCase().includes(this._phrase) || String(album.year) === this._phrase || String(album.stars) === this._phrase) {
         return true;
       } else {
         return false;
