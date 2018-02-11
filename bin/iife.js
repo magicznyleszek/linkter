@@ -5,8 +5,8 @@
 const fs = require("fs");
 const thisProcess = require("process");
 
-const iifeStart = ";(function () {\n";
-const iifeEnd = "})();\n";
+const iifeStart = "\n;(function () {\n";
+const iifeEnd = "\n})();\n";
 
 // make sure file paramter given
 const file = thisProcess.argv[2];
