@@ -14,31 +14,6 @@ album
   content: "\2014";
 }
 
-[i-album-price] {
-  float: right;
-  margin-left: calc(var(--s-leading) * 0.5);
-  font-family: var(--font-monospace);
-  font-size: 150%;
-  font-weight: 300;
-  line-height: calc(var(--s-leading) * 2);
-}
-
-[i-album-distance]::before {
-  content: "(";
-}
-
-[i-album-distance]::after {
-  content: ")";
-}
-
 [i-album-stars] {
   color: var(--c-prelude);
-}
-
-[i-album-ratingVotes]::before {
-  content: "(";
-}
-
-[i-album-ratingVotes]::after {
-  content: ")";
 }

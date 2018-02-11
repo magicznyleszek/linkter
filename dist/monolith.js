@@ -1,3 +1,4 @@
+
 ;(function () {
 "use strict";
 
@@ -357,4 +358,6 @@ var ObservableModel = function () {
 angular.module("observableModule").factory("Observable", function () {
   return ObservableModel;
 });
+
+//# sourceMappingURL=monolith.js.map
 })();
