@@ -1,0 +1,27 @@
+<div
+  i-card
+  ng-repeat="
+    (decade, decadeAlbums) in albums.list
+    | filter: albums.matchAlbum
+    | groupBy: 'decade'
+  "
+>
+  [[ decade ]]
+  <div
+    i-album
+    ng-repeat="album in decadeAlbums track by ::album.link"
+  >
+    <div>
+      <span i-album-title ng-bind="::album.title"></span>
+      <span i-album-stars ng-bind="::album.stars | humanizeStars"></span>
+    </div>
+
+    <div>
+      <span i-album-metaPart>
+        <span ng-bind="::album.artist"></span>
+        &mdash;
+        <span ng-bind="::album.year"></span>
+      </span>
+    </div>
+  </div>
+</div>

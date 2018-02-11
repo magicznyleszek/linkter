@@ -30,9 +30,12 @@
     "scripts:uglify":
       "uglifyjs dist/monolith.js --output dist/monolith.min.js --compress --keep-fnames --mangle-props 0",
     "scripts:test": "karma start .karma.config.js",
-    "scripts:copydeps": "npm-run-all copy:angular copy:lodash",
+    "scripts:copydeps":
+      "npm-run-all copy:angular copy:angular-filter copy:lodash",
     "copy:angular":
       "cp node_modules/angular/angular.min.js dist/angular.min.js && cp node_modules/angular/angular.min.js.map dist/angular.min.js.map",
+    "copy:angular-filter":
+      "cp node_modules/angular-filter/dist/angular-filter.min.js dist/angular-filter.min.js",
     "copy:lodash": "cp node_modules/lodash/lodash.min.js dist/lodash.min.js",
     "jekyll:build": "jekyll build",
     "jekyll:serve": "jekyll serve --watch --baseurl ''"
@@ -92,6 +95,7 @@
   },
   "dependencies": {
     "angular": "^1.6.3",
+    "angular-filter": "^0.5.17",
     "lodash": "^4.17.4"
   }
 }

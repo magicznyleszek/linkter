@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// linkterAppModule is our single ngApp module for whole web app
+// albumsModule for displaying a list of albums, uses some modules for filtering
 // -----------------------------------------------------------------------------
 
-angular.module("linkterAppModule", ["albumsModule", "angular.filter"]);
+angular.module("albumsModule", ["filtersModule"]);

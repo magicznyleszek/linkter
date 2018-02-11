@@ -15,3 +15,4 @@ app styles aggregation
 @import "common/card.css";
 @import "common/text.css";
 @import "common/filters.css";
+@import "albumsModule/album.css";
