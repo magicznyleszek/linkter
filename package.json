@@ -20,6 +20,8 @@
     "serve": "npm-run-all build jekyll:serve",
     "test": "npm-run-all scripts:test",
     "lint": "npm-run-all scripts:lint styles:lint",
+    "livereload":
+      "browser-sync start --proxy 'localhost:2038' --files '_site/**/*' --port 2039",
     "dist:rebuild": "rm -rf dist && mkdir dist",
     "styles:build": "postcss src/app.css -o dist/monolith.css",
     "scripts:build":
@@ -63,6 +65,7 @@
     "babel-cli": "^6.24.0",
     "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.24.0",
+    "browser-sync": "^2.23.6",
     "cssnano": "^3.10.0",
     "eslint": "^3.17.1",
     "istanbul-reporter-shield-badge": "^1.1.3",

@@ -10,6 +10,8 @@ Features:
 * MADCSS
 * Responsive design
 * Linters
+* Live reload (via Browsersync)
+* Editorconfig
 
 Note: I assumed that this would be a `PHP`-based website with Backend providing the data via `window.linkterData`. For now Jekyll mocks it.
 
@@ -24,14 +26,16 @@ To preview the project, you need to do three things:
 
 1. `npm install`
 2. `npm run serve`
-3. open [127.0.0.1:2038](http://127.0.0.1:2038/) in the browser
+3. open [localhost:2038](http://localhost:2038/) in the browser
 
 ## Development
 
-What you want is to basically have two terminals:
+What you want is to basically have three terminals:
 
-1. `npm run serve` -- this is providing the [127.0.0.1:2038](http://127.0.0.1:2038/) "server" and watching changes on Jekyll
+1. `npm run serve` -- building and serving Jekyll site
 2. `npm run watch` -- this is watching all source files and producing dist ones
+3. `npm run livereload` -- live reloading website on changes
+4. open [localhost:2039](http://localhost:2039/)
 
 ## TODO
 
