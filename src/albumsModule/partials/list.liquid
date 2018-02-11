@@ -12,7 +12,12 @@
     ng-repeat="album in decadeAlbums track by ::album.link"
   >
     <div>
-      <span i-album-title ng-bind="::album.title"></span>
+      <a
+        href="[[::album.link]]"
+        i-album-title
+        ng-bind="::album.title"
+        target="_blank"
+      ></a>
       <span i-album-stars ng-bind="::album.stars | humanizeStars"></span>
     </div>
 
