@@ -1,0 +1,134 @@
+{
+  "decades": [
+    {
+      "name": "2010s",
+      "list": [
+        {
+          "artist": "Kendrick Lamar",
+          "title": "To Pimp a Butterfly",
+          "year": 2015,
+          "stars": 4,
+          "link":
+            "https://rateyourmusic.com/release/album/kendrick-lamar/to-pimp-a-butterfly-1/"
+        },
+        {
+          "artist": "Kendrick Lamar",
+          "title": "good kid, m.A.A.d city",
+          "year": 2012,
+          "stars": 4,
+          "link":
+            "https://rateyourmusic.com/release/album/kendrick-lamar/good-kid-m_a_a_d-city-6/"
+        },
+        {
+          "artist": "Swans",
+          "title": "The Seer",
+          "year": 2012,
+          "stars": 5,
+          "link": "https://rateyourmusic.com/release/album/swans/the-seer-2/"
+        },
+        {
+          "artist": "D'Angelo and The Vanguard",
+          "title": "Black Messiah",
+          "year": 2014,
+          "stars": 3,
+          "link":
+            "https://rateyourmusic.com/release/album/dangelo-and-the-vanguard/black-messiah-1/"
+        },
+        {
+          "artist": "PJ Harvey",
+          "title": "Let England Shake",
+          "year": 2011,
+          "stars": 2,
+          "link":
+            "https://rateyourmusic.com/release/album/pj_harvey/let_england_shake/"
+        },
+        {
+          "artist": "Death Grips",
+          "title": "The Money Store",
+          "year": 2012,
+          "stars": 4,
+          "link":
+            "https://rateyourmusic.com/release/album/death-grips/the-money-store-1/"
+        },
+        {
+          "artist": "Tim Hecker",
+          "title": "Ravedeath, 1972",
+          "year": 2011,
+          "stars": 5,
+          "link":
+            "https://rateyourmusic.com/release/album/tim-hecker/ravedeath-1972/"
+        }
+      ]
+    },
+    {
+      "name": "2000s",
+      "list": [
+        {
+          "artist": "Converge",
+          "title": "Jane Doe",
+          "year": 2001,
+          "stars": 3,
+          "link": "https://rateyourmusic.com/release/album/converge/jane-doe/"
+        },
+        {
+          "artist": "The Avalanches",
+          "title": "Since I Left You",
+          "year": 2000,
+          "stars": 3,
+          "link":
+            "https://rateyourmusic.com/release/album/the_avalanches/since-i-left-you/"
+        },
+        {
+          "artist": "Stars of the Lid",
+          "title": "And Their Refinement of the Decline",
+          "year": 2007,
+          "stars": 4,
+          "link": "LLLL"
+        }
+      ]
+    },
+    {
+      "name": "1990s",
+      "list": [
+        {
+          "artist": "Genius/GZA",
+          "title": "Liquid Swords",
+          "year": 1995,
+          "stars": 5,
+          "link":
+            "https://rateyourmusic.com/release/album/genius_gza/liquid-swords-3/"
+        },
+        {
+          "artist": "London Sinfonietta / David Zinman / Dawn Upshaw",
+          "title": "Symphony No. 3",
+          "year": 1992,
+          "stars": 5,
+          "link":
+            "https://rateyourmusic.com/release/album/london_sinfonietta_david_zinman_dawn_upshaw/symphony_no__3/"
+        },
+        {
+          "artist": "A Tribe Called Quest",
+          "title": "Midnight Marauders",
+          "year": 1993,
+          "stars": 4,
+          "link":
+            "https://rateyourmusic.com/release/album/a-tribe-called-quest/midnight-marauders-1/"
+        },
+        {
+          "artist": "Slint",
+          "title": "Spiderland",
+          "year": 1991,
+          "stars": 2,
+          "link": "https://rateyourmusic.com/release/album/slint/spiderland/"
+        },
+        {
+          "artist": "Portishead",
+          "title": "Dummy",
+          "year": 1994,
+          "stars": 5,
+          "link": "https://rateyourmusic.com/release/album/portishead/dummy/"
+        }
+      ]
+    }
+  ]
+}
