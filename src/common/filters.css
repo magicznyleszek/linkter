@@ -1,0 +1,98 @@
+/*******************************************************************************
+filters
+*******************************************************************************/
+
+:root {
+  --c-filters-txt: var(--c-gunpowder);
+}
+
+[i-filters] {
+  display: block;
+  position: relative;
+  margin-top: calc(var(--s-leading) * 0.5);
+  margin-bottom: calc(var(--s-leading) * 0.5);
+  border-radius: var(--s-global-br);
+  padding: calc(var(--s-leading) * 0.5);
+  width: 100%;
+  height: auto;
+  background-color: color(var(--c-filters-txt) alpha(5%));
+  color: var(--c-filters-txt);
+  line-height: var(--s-leading);
+}
+
+[i-filter-name] {
+  padding-right: calc(var(--s-leading) * 0.5);
+  text-align: left;
+}
+
+/*******************************************************************************
+filter box-looking inputs
+*******************************************************************************/
+
+[i-filter-boxInput] {
+  display: inline-block;
+  box-sizing: content-box;
+  border-radius: var(--s-global-br);
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  height: var(--s-leading);
+  outline: 0;
+  font-weight: 700;
+}
+
+/* placeholder colors */
+[i-filter-boxInput]::-moz-placeholder {
+  color: color(var(--c-filters-txt) alpha(25%));
+}
+
+[i-filter-boxInput]::-ms-input-placeholder {
+  color: color(var(--c-filters-txt) alpha(25%));
+}
+
+[i-filter-boxInput]::-webkit-input-placeholder {
+  color: color(var(--c-filters-txt) alpha(25%));
+}
+
+/* default input state */
+[i-filter-boxInput] {
+  background-color: transparent;
+}
+
+[i-filter-boxInput]:not([disabled]):hover {
+  background-color: color(var(--c-filters-txt) alpha(4%));
+}
+
+[i-filter-boxInput]:not([disabled]):active {
+  background-color: color(var(--c-filters-txt) alpha(8%));
+}
+
+[i-filter-boxInput]:not([disabled]):focus {
+  background-color: var(--c-prelude);
+}
+
+/*******************************************************************************
+filter select
+*******************************************************************************/
+
+[i-filter-select] {
+}
+
+/*******************************************************************************
+filter rangeInput
+*******************************************************************************/
+
+[i-filter-rangeInput] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+[i-filter-rangeOutput] {
+  font-weight: 700;
+}
+
+/*******************************************************************************
+filter textInput
+*******************************************************************************/
+
+[i-filter-textInput] {
+}
