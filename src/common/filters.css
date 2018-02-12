@@ -12,7 +12,7 @@ filters
   margin: calc(var(--s-leading) * 0.5);
   border-radius: var(--s-global-br);
   padding: calc(var(--s-leading) * 0.5);
-  width: 100%;
+  width: auto;
   height: auto;
   background-color: color(var(--c-filters-txt) alpha(5%));
   color: var(--c-filters-txt);
@@ -67,31 +67,4 @@ filter box-looking inputs
 
 [i-filter-boxInput]:not([disabled]):focus {
   background-color: var(--c-prelude);
-}
-
-/*******************************************************************************
-filter select
-*******************************************************************************/
-
-[i-filter-select] {
-}
-
-/*******************************************************************************
-filter rangeInput
-*******************************************************************************/
-
-[i-filter-rangeInput] {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-[i-filter-rangeOutput] {
-  font-weight: 700;
-}
-
-/*******************************************************************************
-filter textInput
-*******************************************************************************/
-
-[i-filter-textInput] {
 }
