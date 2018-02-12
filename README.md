@@ -39,6 +39,7 @@ What you want is to basically have three terminals:
 
 ## TODO
 
+* build dev Node server for json data and call it instead of jekyll data file
 * add sorting and more filters
 * store filters value in localStorage
 * keep filters and sorter values as routing parameters
