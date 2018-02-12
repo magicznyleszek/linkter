@@ -1,6 +1,15 @@
 /*******************************************************************************
-album
+albums
 *******************************************************************************/
+
+@media (--medium), (--bigger) {
+  [i-decade] {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-width: calc(var(--s-leading) * 10);
+  }
+}
 
 [i-album] {
   margin-top: var(--s-leading);
