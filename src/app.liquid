@@ -3,17 +3,17 @@
     window.albumsData = {{ site.data.albums | jsonify }};
   </script>
 
+  <h1 i-area="half" i-text="uppercased">Top albums by decade</h1>
+
+  {% include filtersModule/filters.liquid %}
+
   <div ng-show="::false" i-card i-text="centered">
     Loading&hellip;
   </div>
 
-  <h1>Top albums by decade</h1>
-
-  {% include filtersModule/filters.liquid %}
-
   {% include albumsModule/albums.liquid %}
 
-  <footer i-text="centered">
-    <a href="{{site.rootSiteUrl}}">&larr;</a>
+  <footer i-text="righted">
+    <a href="{{site.rootSiteUrl}}">by smutnyleszek</a>
   </footer>
 </div>

@@ -9,8 +9,7 @@ filters
 [i-filters] {
   display: block;
   position: relative;
-  margin-top: calc(var(--s-leading) * 0.5);
-  margin-bottom: calc(var(--s-leading) * 0.5);
+  margin: calc(var(--s-leading) * 0.5);
   border-radius: var(--s-global-br);
   padding: calc(var(--s-leading) * 0.5);
   width: 100%;

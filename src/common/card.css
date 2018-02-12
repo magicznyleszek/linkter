@@ -20,12 +20,14 @@ card module
 }
 
 [i-card] {
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   position: relative;
-  margin: calc(var(--s-leading) * 0.5) auto;
+  margin: calc(var(--s-leading) * 0.5);
   border-radius: var(--s-global-br);
   padding: calc(var(--s-leading) * 0.5);
   width: auto;
+  min-width: calc(var(--s-leading) * 12);
   background-color: var(--c-white);
   box-shadow: var(--card-sh-default);
   color: var(--c-card-default);

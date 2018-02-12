@@ -1,13 +1,9 @@
 <div
   i-card
-  i-decade
-  ng-repeat="
-    (decade, decadeAlbums) in albums.list
-    | filter: albums.matchAlbum
-    | groupBy: 'decade'
-  "
+  ng-repeat="(decade, decadeAlbums) in albums.list | filter: albums.matchAlbum | groupBy: 'decade'"
 >
-  [[ decade ]]
+  <h2 i-text="200% centered">[[ decade ]]</h2>
+
   <div
     i-album
     ng-repeat="album in decadeAlbums track by ::album.link"
@@ -19,15 +15,14 @@
         ng-bind="::album.title"
         target="_blank"
       ></a>
+
       <span i-album-stars ng-bind="::album.stars | humanizeStars"></span>
     </div>
 
     <div>
-      <span i-album-metaPart>
-        <span ng-bind="::album.artist"></span>
-        &mdash;
-        <span ng-bind="::album.year"></span>
-      </span>
+      <span ng-bind="::album.artist"></span>
+      @
+      <span ng-bind="::album.year"></span>
     </div>
   </div>
 </div>

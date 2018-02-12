@@ -21,7 +21,7 @@ variables - all global and pallete variables for project
   /* base */
   --c-root-txt: var(--c-gunpowder);
   --c-root-bg: var(--c-peach);
-  --s-root-content: 40rem; /* 640px @ 16px */
+  --s-root-content: 60rem; /* 960px @ 16px */
 
   /* root typography */
   --root-fontWeight: 400;
