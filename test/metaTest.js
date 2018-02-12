@@ -1,3 +1,5 @@
+// making sure tests run correctly
+
 describe("environment", () => {
   it("should know what's false", () => {
     expect(true).not.toBe(Boolean(0));

@@ -119,7 +119,7 @@ var FiltersInterfaceService = function () {
     key: "setPhrase",
     value: function setPhrase(phrase) {
       // we want to keep the phrase lowercased for easier comparison
-      this._phrase = phrase.toLowerCase();
+      this._phrase = String(phrase).toLowerCase();
     }
   }, {
     key: "matchAlbum",

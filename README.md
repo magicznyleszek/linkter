@@ -1,4 +1,4 @@
-![coverage-shield-badge-1](https://img.shields.io/badge/coverage-80.6%25-yellow.svg)
+![coverage-shield-badge-1](https://img.shields.io/badge/coverage-95.52%25-brightgreen.svg)
 
 # Linkter
 
