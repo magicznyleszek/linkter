@@ -129,6 +129,118 @@
       "year": 1994,
       "stars": 5,
       "link": "https://rateyourmusic.com/release/album/portishead/dummy/"
+    },
+    {
+      "artist": "Sonic Youth",
+      "title": "Daydream Nation",
+      "decade": "1980s",
+      "year": 1988,
+      "stars": 3,
+      "link": "https://rateyourmusic.com/release/album/sonic-youth/daydream-nation-27/"
+    },
+    {
+      "artist": "Joy Division",
+      "title": "Closer",
+      "decade": "1980s",
+      "year": 1980,
+      "stars": 5,
+      "link": "https://rateyourmusic.com/release/album/joy_division/closer/"
+    },
+    {
+      "artist": "Metallica",
+      "title": "Master of Puppets",
+      "decade": "1980s",
+      "year": 1986,
+      "stars": 5,
+      "link": "https://rateyourmusic.com/release/album/metallica/master-of-puppets/"
+    },
+    {
+      "artist": "Metallica",
+      "title": "Ride the Lightning",
+      "decade": "1980s",
+      "year": 1984,
+      "stars": 4,
+      "link": "https://rateyourmusic.com/release/album/metallica/ride-the-lightning-2/"
+    },
+    {
+      "artist": "Can",
+      "title": "Tago Mago",
+      "decade": "1970s",
+      "year": 1971,
+      "stars": 2,
+      "link": "https://rateyourmusic.com/release/album/can/tago-mago/"
+    },
+    {
+      "artist": "Kraftwerk",
+      "title": "Trans Europa Express",
+      "decade": "1970s",
+      "year": 1977,
+      "stars": 4,
+      "link": "https://rateyourmusic.com/release/album/kraftwerk/trans-europa-express-1/"
+    },
+    {
+      "artist": "Pink Floyd",
+      "title": "The Dark Side of the Moon",
+      "decade": "1970s",
+      "year": 1973,
+      "stars": 3,
+      "link": "https://rateyourmusic.com/release/album/pink-floyd/the-dark-side-of-the-moon-7/"
+    },
+    {
+      "artist": "Pink Floyd",
+      "title": "Wish You Were Here",
+      "decade": "1970s",
+      "year": 1975,
+      "stars": 4,
+      "link": "https://rateyourmusic.com/release/album/pink-floyd/wish-you-were-here-1/"
+    },
+    {
+      "artist": "Joy Division",
+      "title": "Unknown Pleasures",
+      "decade": "1970s",
+      "year": 1979,
+      "stars": 5,
+      "link": "https://rateyourmusic.com/release/album/joy_division/unknown_pleasures/"
+    },
+    {
+      "artist": "Steve Reich",
+      "title": "Music for 18 Musicians",
+      "decade": "1970s",
+      "year": 1978,
+      "stars": 4,
+      "link": "https://rateyourmusic.com/release/album/steve-reich/music-for-18-musicians-6/"
+    },
+    {
+      "artist": "Yes",
+      "title": "Close to the Edge",
+      "decade": "1970s",
+      "year": 1972,
+      "stars": 5,
+      "link": "https://rateyourmusic.com/release/album/yes/close_to_the_edge/"
+    },
+    {
+      "artist": "Black Sabbath",
+      "title": "Paranoid",
+      "decade": "1970s",
+      "year": 1970,
+      "stars": 2,
+      "link": "https://rateyourmusic.com/release/album/black-sabbath/paranoid-3/"
+    },
+    {
+      "artist": "Eno",
+      "title": "Another Green World",
+      "decade": "1970s",
+      "year": 1975,
+      "stars": 2,
+      "link": "https://rateyourmusic.com/release/album/eno/another-green-world/"
+    },
+    {
+      "artist": "Brian Eno",
+      "title": "Ambient 1: Music for Airports",
+      "decade": "1970s",
+      "year": 1978,
+      "stars": 5,
+      "link": "https://rateyourmusic.com/release/album/brian-eno/ambient-1-music-for-airports-1/"
     }
   ]
 }
