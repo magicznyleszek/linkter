@@ -39,7 +39,10 @@ What you want is to basically have three terminals:
 
 ## TODO
 
-* write test for modules
-* store filters and sorter value in localStorage
+* add sorting and more filters
+* store filters value in localStorage
 * keep filters and sorter values as routing parameters
-* search filter should use fuzzy search algorithm
+* phrase filter should use fuzzy search algorithm
+* phrase filter should highlight stuff in found elements
+* move to TypeScript
+* move tests to modules directories

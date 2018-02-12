@@ -6,6 +6,7 @@ author: "Leszek Pietrzak"
 
 # address settings
 baseurl: "http://linkter.smutnyleszek.com"
+repositoryUrl: https://github.com/smutnyleszek/linkter
 rootSiteUrl: "http://smutnyleszek.com"
 
 # site configuration

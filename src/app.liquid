@@ -3,7 +3,13 @@
     window.albumsData = {{ site.data.albums | jsonify }};
   </script>
 
-  <h1 i-area="half" i-text="uppercased">Top albums by decade</h1>
+  <header i-area="half">
+    <div i-text="75% righted">
+      <a href="{{site.repositoryUrl}}" target="_blank">GitHub</a>
+    </div>
+
+    <h1 i-text="uppercased">Top albums by decade</h1>
+  </header>
 
   {% include filtersModule/filters.liquid %}
 
